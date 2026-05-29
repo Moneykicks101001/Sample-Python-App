@@ -1,0 +1,105 @@
+```gitignore
+# =========================
+# Python
+# =========================
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+
+# =========================
+# Environment Variables
+# =========================
+
+.env
+.env.*
+!.env.example
+
+# =========================
+# Logs
+# =========================
+
+*.log
+
+# =========================
+# VSCode / IDE
+# =========================
+
+.vscode/
+.idea/
+
+# =========================
+# OS Files
+# =========================
+
+.DS_Store
+Thumbs.db
+
+# =========================
+# Docker
+# =========================
+
+docker-compose.override.yml
+
+# =========================
+# Terraform
+# =========================
+
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
+crash.log
+
+# Keep provider lock file
+!.terraform.lock.hcl
+
+# =========================
+# Kubernetes
+# =========================
+
+*.kubeconfig
+kubeconfig
+
+# =========================
+# Azure
+# =========================
+
+.azure/
+
+# =========================
+# Secrets / Certificates
+# =========================
+
+*.pem
+*.key
+*.crt
+*.pfx
+*.p12
+
+# =========================
+# Testing / Coverage
+# =========================
+
+.coverage
+pytest_cache/
+htmlcov/
+
+# =========================
+# Misc
+# =========================
+
+tmp/
+temp/
+```
